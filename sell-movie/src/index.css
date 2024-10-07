@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Kh"; /* Capitalized to match the font name */
+  src: url("./assets/font/KantumruyPro-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "juju"; /* Capitalized to match the font name */
+  src: url("./assets/font/Qetod.ttf") format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
