@@ -41,12 +41,12 @@ export let Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="text-white md:text-xl transition hover:text-white/75"
-                      href="#"
+                      to="/prod"
                     >
                       អំពី
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link

@@ -8,6 +8,7 @@ import ListingPage from "./pages/ListingPage.jsx";
 import Detailspage from "./pages/Detailspage.jsx";
 import RootLayout from "./components/Layout/Rootlayout.jsx";
 import DataFetcher from "./pages/testAxio.jsx";
+import { Products } from "./pages/testAxio.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/api",
         element: <DataFetcher />,
+      },
+      {
+        path: "/prod",
+        element: <Products />,
       },
     ],
   },

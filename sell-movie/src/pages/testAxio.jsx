@@ -42,3 +42,40 @@ const ProductList = () => {
 };
 
 export default ProductList;
+
+// src/components/Products.js
+
+export const Products = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const response = await fetch("/index.json");
+      const data = await response.json();
+      setProducts(data);
+    };
+
+    fetchProducts();
+  }, []);
+
+  return (
+    <main className="p-5 md:p-3 lg:p-0  gap-5 md:gap-3  max-w-screen-xl min-w-screen-80 mx-auto">
+      <h1>Products</h1>
+
+      <div className="grid  grid-cols-1 md:grid-cols-4  gap-5">
+        {products.map((product) => (
+          <div className="bg-orange-200">
+            <p key={product.id}>{product.name}</p>
+            <img
+              src={product.image}
+              className="w-full h-[220px] object-cover"
+              alt=""
+            />
+            <p key={product.id}>{product.price}</p>
+            <p key={product.id}>{product.description}</p>
+          </div>
+        ))}
+      </div>
+    </main>
+  );
+};
