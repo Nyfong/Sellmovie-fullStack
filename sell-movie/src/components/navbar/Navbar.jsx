@@ -49,12 +49,12 @@ export let Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="text-white md:text-xl transition hover:text-white/75"
-                      href="#"
+                      to="/api"
                     >
                       ផ្សេងៗ
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
