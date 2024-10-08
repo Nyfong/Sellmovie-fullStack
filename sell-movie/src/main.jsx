@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage.jsx";
 import ListingPage from "./pages/ListingPage.jsx";
 import Detailspage from "./pages/Detailspage.jsx";
 import RootLayout from "./components/Layout/Rootlayout.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
 import DataFetcher from "./pages/testAxio.jsx";
 import { Products } from "./pages/testAxio.jsx";
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/details",
         element: <Detailspage />,
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUs />,
       },
       {
         path: "/api",

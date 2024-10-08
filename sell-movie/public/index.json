@@ -1,44 +1,97 @@
 [
   {
     "id": 1,
-    "name": "kdet",
-    "description": "Description of Product 1",
-    "price": 9.99,
-    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230728154500/download-(1).jfif"
+    "name": "Canva pro",
+    "description": "Canva គឺជាឧបករណ៍រចនាតាមអ៊ីនធឺណិតដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើតក្រាហ្វិក បទបង្ហាញ ការបង្ហោះប្រព័ន្ធផ្សព្វផ្សាយសង្គម និងអ្វីៗជាច្រើនទៀតដោយប្រើមុខងារអូសនិងទម្លាក់។ វាផ្តល់នូវគំរូ រូបភាព និងធាតុរចនាសម្រាប់អ្នកជំនាញ និងអ្នកចាប់ផ្តើមដំបូងដូចគ្នា។",
+    "price": 3,
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBb8YkqrmoFjcMUJULGOJelBjd5QCreFQGGrELW8fl67Ntaocg609TDJFVWNHUdAJP33ceFrjJlK.E3wzTjKkiFc-&format=source"
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "description": "Description of Product 2",
-    "price": 19.99,
-    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230728154740/download-(2).jfif"
+    "name": "Netflix",
+    "description": "Netflix គឺជាសេវាកម្មចាក់ផ្សាយដែលផ្តល់ជូននូវបណ្ណាល័យដ៏ធំនៃភាពយន្ត កម្មវិធីទូរទស្សន៍ ភាពយន្តឯកសារ និងខ្លឹមសារដើម។ វាផ្តល់នូវការមើលដោយគ្មានការផ្សាយពាណិជ្ជកម្មជាមួយនឹងការជាវដែលមាននៅលើឧបករណ៍ជាច្រើននៅទូទាំងពិភពលោក",
+    "catg": " movie",
+    "price": 3,
+    "image": "https://images.ctfassets.net/4cd45et68cgf/5y7i4snzpqkr2oHRCRAkN4/c144749aa0df745e43367744af149f66/Android_Collage_1920x1080__UCAN_En.jpg?w=1200"
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "description": "Description of Product 3",
-    "price": 20,
-    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230728154838/download-(3).jfif"
+    "name": "Amazone prime",
+    "description": "Amazon Prime Video គឺជាសេវាកម្មចាក់ផ្សាយដែលផ្តល់នូវជម្រើសដ៏ធំទូលាយនៃភាពយន្ត កម្មវិធីទូរទស្សន៍ និងមាតិកាដើម។ វាត្រូវបានរួមបញ្ចូលជាមួយនឹងការជាវ Amazon Prime និងផ្តល់នូវការមើលដោយគ្មានការផ្សាយពាណិជ្ជកម្ម និងការចូលទៅកាន់ចំណងជើងផ្តាច់មុខ។",
+    "catg": " movie",
+    "price": 3,
+    "image": "https://cdn.prod.website-files.com/60ab0571dc2b4b3a7165c912/65bb5e44a7173f31270f005a_%E1%84%8E%E1%85%A2%E1%86%BA-gpt.png"
   },
   {
     "id": 4,
-    "name": "Product 4",
-    "description": "Description of Product 4",
-    "price": 25,
-    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230728154931/download.jfif"
+    "name": "Disney plus",
+    "description": "Disney Plus គឺជាវេទិកាផ្សាយដែលមានភាពយន្ត និងកម្មវិធីទូរទស្សន៍ពី Disney, Pixar, Marvel, Star Wars និង National Geographic ។ វាផ្តល់ជូននូវមាតិកាដែលងាយស្រួលសម្រាប់គ្រួសារ និងស៊េរីដើមដូចជា The Mandalorian ជាដើម។",
+    "catg": " movie",
+    "price": 3,
+    "image": "https://static.standard.co.uk/2023/08/10/09/disneyp.jpg?width=1200&height=900&fit=crop"
   },
   {
     "id": 5,
-    "name": "Product 5",
-    "description": "Description of Product 5",
-    "price": 30,
-    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230728155132/images-(1).jfif"
+    "name": "Apple tv plus",
+    "description": "Description of Product 3",
+    "catg": " movie",
+    "price": 3,
+    "image": "https://www.apple.com/v/apple-tv-plus/ai/images/meta/apple-tv__e7aqjl2rqzau_og.png"
   },
   {
     "id": 6,
-    "name": "Product 6",
-    "description": "Description of Product 6",
-    "price": 999,
-    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230728155224/images.jfif"
+    "name": "Capcut pro",
+    "description": "CapCut គឺជាកម្មវិធីកាត់តវីដេអូដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើត និងកែសម្រួលវីដេអូបានយ៉ាងងាយស្រួល។ វាផ្តល់នូវលក្ខណៈពិសេសដូចជាការកាត់ត តម្រង ការផ្លាស់ប្តូរ អត្ថបទ តន្ត្រី និងបែបផែន ដែលធ្វើឱ្យវាស័ក្តិសមសម្រាប់ទាំងអ្នកប្រើប្រាស់ធម្មតា និងអ្នកបង្កើតមាតិកា។ ជាមួយនឹងចំណុចប្រទាក់ដ៏សាមញ្ញ និងឧបករណ៍កែសម្រួលផ្សេងៗរបស់វា CapCut មានប្រជាប្រិយភាពសម្រាប់ការបង្កើតវីដេអូប៉ូឡូញសម្រាប់វេទិកាប្រព័ន្ធផ្សព្វផ្សាយសង្គម។",
+    "catg": " software",
+    "price": 5,
+    "image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/ies/lvweb_os_monorepo/platformSSR/3f7c59f36d529f90-1200.png"
+  },
+  {
+    "id": 7,
+    "name": "Paramount Plus ",
+    "description": "Description of Product 3",
+    "catg": " movie",
+    "price": 3,
+    "image": "https://i.insider.com/605a36490d155e0019ef6471?width=700"
+  },
+  {
+    "id": 8,
+    "name": "Sportify",
+    "description": "Spotify គឺជាសេវាកម្មស្ទ្រីមតន្ត្រីឌីជីថលដ៏ពេញនិយមដែលផ្តល់នូវការចូលប្រើបទចម្រៀងរាប់លាន ផតខាស និងមាតិកាអូឌីយ៉ូផ្សេងទៀតពីសិល្បករនៅទូទាំងពិភពលោក។ វាអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ស្វែងរក ស្តាប់ និងចែករំលែកតន្ត្រីតាមប្រភេទ និងរចនាប័ទ្មផ្សេងៗ។ Spotify ផ្តល់ជូនទាំងកម្រិតឥតគិតថ្លៃ គាំទ្រការផ្សាយពាណិជ្ជកម្ម និងសេវាកម្មជាវលំដាប់ខ្ពស់ ដែលផ្តល់នូវការស្តាប់ដោយគ្មានពាណិជ្ជកម្ម ការទាញយកក្រៅបណ្តាញ និងគុណភាពសំឡេងខ្ពស់ជាង",
+    "catg": " music",
+    "price": 4,
+    "image": "https://outsideinsight.com/wp-content/uploads/2018/11/spotify-Header-1024x576.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Chatgpt Plus ",
+    "description": "Description of Product 3",
+    "catg": " education",
+    "price": 6,
+    "image": "https://cdn.prod.website-files.com/60ab0571dc2b4b3a7165c912/65bb5e44a7173f31270f005a_%E1%84%8E%E1%85%A2%E1%86%BA-gpt.png"
+  },
+  {
+    "id": 10,
+    "name": "Chrunchyroll ",
+    "description": "Description of Product 3",
+    "catg": " movie",
+    "price": 3,
+    "image": "https://assets.aboutamazon.com/dims4/default/dc6e6ef/2147483647/strip/false/crop/1920x1080+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Ff8%2F2a%2Fe21459814491b9aac0134bfffaf8%2Fcr-1920x1080.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Stream Random Key  ",
+    "description": "Description of Product 3",
+    "catg": " game",
+    "price": 3,
+    "image": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-ly83ahr0l9xdad"
+  },
+  {
+    "id": 10,
+    "name": "Nord VPN ",
+    "description": "Description of Product 3",
+    "catg": " game",
+    "price": 30,
+    "image": "https://i.pcmag.com/imagery/reviews/07lyyVIatWNmQKm97hGohzg-9..v1569477664.png"
   }
 ]

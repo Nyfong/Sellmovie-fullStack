@@ -24,14 +24,6 @@ export let Navbar = () => {
             <div className="hidden md:block font-kh">
               <nav aria-label="Global">
                 <ul className="flex items-center gap-6 text-sm">
-                  {/* <li>
-                    <Link
-                      className="text-white md:text-xl transition hover:text-white/75"
-                      to="/"
-                    >
-                      ទំព័រដើម
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       className="text-white md:text-xl transition hover:text-white/75"
@@ -43,7 +35,7 @@ export let Navbar = () => {
                   <li>
                     <Link
                       className="text-white md:text-xl transition hover:text-white/75"
-                      to="/prod"
+                      to="/aboutus"
                     >
                       អំពី
                     </Link>
@@ -51,7 +43,7 @@ export let Navbar = () => {
                   <li>
                     <Link
                       className="text-white md:text-xl transition hover:text-white/75"
-                      to="/api"
+                      to="/prod"
                     >
                       ផ្សេងៗ
                     </Link>
@@ -130,22 +122,22 @@ export let Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-white/75 font-kh"
-                    href="#"
+                    to="aboutus"
                     onClick={toggleDrawer}
                   >
                     អំពី
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-white/75 font-kh"
-                    href="#"
+                    to="/prod"
                     onClick={toggleDrawer}
                   >
                     ផ្សេងៗ
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
