@@ -1,6 +1,7 @@
 import { Button1 } from "../Button/Button1";
 export let WhyUs = () => {
   const talkWithMe = "និយាយជាមួយអ្នកលក់ !";
+  const url = "https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d";
   return (
     <>
       <section>
@@ -23,7 +24,7 @@ export let WhyUs = () => {
                 Telegram: 099 661 256
               </p>
               <section className="mt-5 md:w-[250px]">
-                <Button1 title={talkWithMe} />
+                <Button1 title={talkWithMe} url={url} />
               </section>
             </div>
           </div>

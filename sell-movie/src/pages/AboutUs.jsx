@@ -1,5 +1,9 @@
+import img1 from "../assets/img/heavid.png";
+import img2 from "../assets/img/fong.png";
+import img3 from "../assets/img/ying.png";
 let AboutUs = () => {
   const arr = [1, 2, 2, 2];
+  const arr1 = [img1, img2, img3, img1];
   return (
     <>
       <main className="p-5 md:p-3 lg:p-0  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
@@ -41,7 +45,7 @@ let AboutUs = () => {
               </div>
             </div>
             {/* imgae */}
-            <div className=" p-10">
+            <div className="  p-10">
               <img
                 src="https://static-00.iconduck.com/assets.00/person-typing-at-desk-illustration-2048x1919-9cvyoh0g.png"
                 alt=""
@@ -54,15 +58,15 @@ let AboutUs = () => {
         <section>
           <div className=" grid grid-cols-1 sm:grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
             {/* image1 */}
-            {arr.map((el) => (
+            {arr1.map((el) => (
               <>
                 <div
                   key={el}
                   className="rounded-lg flex flex-col gap-3 items-center"
                 >
                   <img
-                    src="https://m.media-amazon.com/images/I/81OcZThCE9L._AC_UF1000,1000_QL80_.jpg"
-                    className="h-[200px] rounded-lg"
+                    src={el}
+                    className="h-[150px] md:h-[200px] w-[150px] md:w-[200px] object-cover rounded-full ring-2 ring-green-500"
                     alt=""
                   />
                   <span className="text-xl">Pu kDet</span>

@@ -41,7 +41,10 @@ export let MediaComponentPrice = ({ title, description, product }) => {
       <>
         <div className="p-3 flex flex-row-reverse items-center font-kh gap-4   ">
           <div className="bg-slate-100 rounded-xl p-5   md:p-3">
-            <Link to="https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d">
+            <Link
+              to="https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d"
+              target={"_blank"}
+            >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/9674/9674659.png"
                 alt=""
@@ -65,7 +68,10 @@ export let MediaComponentPrice = ({ title, description, product }) => {
     <>
       <div className="p-3 flex flex-row-reverse items-center font-kh gap-4   ">
         <div className="bg-slate-100 rounded-xl p-5   md:p-3">
-          <Link to="https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d">
+          <Link
+            to="https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d"
+            target={"_blank"}
+          >
             <img
               src="https://cdn-icons-png.flaticon.com/512/9674/9674659.png"
               alt=""

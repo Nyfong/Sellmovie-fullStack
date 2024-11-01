@@ -4,7 +4,7 @@ import { SearchBar1 } from "../components/Search/SearchBar";
 let ListingPage = () => {
   return (
     <>
-      <div className="relative   bg-[url('')] sm:bg-[url('https://images5.alphacoders.com/940/940265.jpg')] bg-no-repeat bg-conver bg-left-top bg-[left_100px] p-5 md:p-3 lg:p-0 bg-fixed">
+      <div className="relative   bg-[url('https://images5.alphacoders.com/940/940265.jpg')] bg-no-repeat bg-conver bg-left-top bg-[left_100px] p-5 md:p-3 lg:p-0 bg-fixed">
         <div className="absolute inset-0 bg-black opacity-60 backdrop-blur-md"></div>
         <main className="relative  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
           <section className="p-10 sticky top-[50px] z-10">
