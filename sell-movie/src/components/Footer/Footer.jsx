@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../assets/img/logoSellMovie.png";
 export let Footer = () => {
   return (
@@ -32,9 +33,11 @@ export let Footer = () => {
                 <img src={Logo} className="h-16 w-16 object-cover" alt="" />
               </div>
 
-              <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt consequuntur amet culpa cum itaque neque.
+              <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left font-kh">
+                ព័ត៌មានអំពីម៉ាកយីហោ និងតម្លៃរបស់យើង។
+                រក្សាទំនាក់ទំនងតាមរយៈបណ្តាញប្រព័ន្ធផ្សព្វផ្សាយសង្គមរបស់យើង
+                និងជាវព្រឹត្តិប័ត្រព័ត៌មានរបស់យើងដើម្បីក្លាយជាអ្នកដំបូងគេ។
+                ដើម្បីស្តាប់អំពីការមកដល់ថ្មី និងការផ្តល់ជូនផ្តាច់មុខ!
               </p>
             </div>
 
@@ -50,13 +53,13 @@ export let Footer = () => {
               </li>
 
               <li>
-                <a
+                <Link
                   className="text-white transition hover:text-white/75"
-                  href="#"
+                  href="/listing"
                 >
                   {" "}
                   Services{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
@@ -70,13 +73,13 @@ export let Footer = () => {
               </li>
 
               <li>
-                <a
+                <Link
                   className="text-white transition hover:text-white/75"
-                  href="#"
+                  href="/aboutus"
                 >
                   {" "}
-                  Blog{" "}
-                </a>
+                  About Us{" "}
+                </Link>
               </li>
             </ul>
           </div>

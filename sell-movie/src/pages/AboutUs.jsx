@@ -1,9 +1,12 @@
 import img1 from "../assets/img/heavid.png";
 import img2 from "../assets/img/fong.png";
 import img3 from "../assets/img/ying.png";
+import { Link } from "react-router-dom";
+
 let AboutUs = () => {
   const arr = [1, 2, 2, 2];
   const arr1 = [img1, img2, img3, img1];
+
   return (
     <>
       <main className="p-5 md:p-3 lg:p-0  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
@@ -45,7 +48,7 @@ let AboutUs = () => {
               </div>
             </div>
             {/* imgae */}
-            <div className="  p-10">
+            <div className="  p-20">
               <img
                 src="https://static-00.iconduck.com/assets.00/person-typing-at-desk-illustration-2048x1919-9cvyoh0g.png"
                 alt=""
@@ -55,7 +58,8 @@ let AboutUs = () => {
           </div>
         </section>
         {/* show team */}
-        <section>
+        <section className="my-10">
+          <p className="underline">Our Team</p>
           <div className=" grid grid-cols-1 sm:grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
             {/* image1 */}
             {arr1.map((el) => (
@@ -74,6 +78,42 @@ let AboutUs = () => {
                 </div>
               </>
             ))}
+          </div>
+        </section>
+        <section className="overflow-hidden rounded-lg shadow-2xl md:grid md:grid-cols-3  pb-10">
+          <Link to="https://www.youtube.com/@davidoeng" target={"_blank"}>
+            <img
+              alt=""
+              src={arr1[0]}
+              className="h-32 w-full object-cover md:h-full rounded-lg ring-2 ring-green-500"
+            />
+          </Link>
+
+          <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
+            <p className="text-sm font-semibold uppercase tracking-widest">
+              Run with the pack
+            </p>
+
+            <h2 className="mt-6 font-black uppercase">
+              <span className="text-4xl font-black sm:text-5xl lg:text-6xl">
+                {" "}
+                Check out my channel{" "}
+              </span>
+
+              <span className="mt-2 block text-sm">exciting video</span>
+            </h2>
+
+            <Link
+              to="https://www.youtube.com/@davidoeng"
+              target={"_blank"}
+              className="mt-8 inline-block w-full bg-black py-4 text-sm font-bold uppercase tracking-widest rounded-lg text-white p-10 bg-red-500"
+            >
+              SUBSCRIBE NOW
+            </Link>
+
+            <p className="mt-8 text-xs font-medium uppercase text-gray-400">
+              1ST November, 2024 *
+            </p>
           </div>
         </section>
       </main>

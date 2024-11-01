@@ -22,7 +22,7 @@ export let HerobannerHomepage = () => {
               ទិញទំនិញដែលមានតម្លៃសមរម្យ មានគុណភាពខ្ពស់
               <strong className="block font-extrabold text-rose-500">
                 {" "}
-                ជាមួយ UNI SHOP.{" "}
+                ជាមួយ TENH KH SHOP.{" "}
               </strong>
             </h1>
 

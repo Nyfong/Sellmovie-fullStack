@@ -12,6 +12,7 @@ import DataFetcher from "./pages/testAxio.jsx";
 import SlideBanner from "./components/Banner/SlideBanner.jsx";
 import { Products } from "./pages/testAxio.jsx";
 import { DetailCard1 } from "./components/Card/DetailpageCard.jsx";
+import RecomendSlideBanner from "./components/Banner/RecomendBanner.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,18 +26,12 @@ const router = createBrowserRouter([
         path: "/listing",
         element: <ListingPage />,
       },
-      {
-        path: "/aa",
-        element: <SlideBanner />,
-      },
+
       {
         path: "/details",
         element: <Detailspage />,
       },
-      {
-        path: "/s",
-        element: <DetailCard1 />,
-      },
+
       {
         path: "/details/:id",
         element: <Detailspage />,
@@ -45,10 +40,7 @@ const router = createBrowserRouter([
         path: "/aboutus",
         element: <AboutUs />,
       },
-      {
-        path: "/api",
-        element: <DataFetcher />,
-      },
+
       {
         path: "/prod",
         element: <Products />,

@@ -52,7 +52,7 @@ const SlideBanner = () => {
               className="w-full h-64 md:h-96 object-cover"
             />
             <div className="absolute bottom-4 left-4 bg-black bg-opacity-60 text-white text-lg md:text-2xl px-4 py-2 rounded">
-              Explore Our Features
+              Squid Game
             </div>
           </Link>
         </div>
@@ -64,7 +64,7 @@ const SlideBanner = () => {
               className="w-full h-64 md:h-96 object-cover"
             />
             <div className="absolute bottom-4 left-4 bg-black bg-opacity-60 text-white text-lg md:text-2xl px-4 py-2 rounded">
-              Explore Our Features
+              Most popular tool
             </div>
           </Link>
         </div>
@@ -87,9 +87,7 @@ const SlideBanner = () => {
               alt="Banner 3"
               className="w-full h-64 md:h-96 object-cover"
             />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-60 text-white text-lg md:text-2xl px-4 py-2 rounded">
-              Join Our Community
-            </div>
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-60 text-white text-lg md:text-2xl px-4 py-2 rounded"></div>
           </Link>
         </div>
       </Slider>

@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import RecomendSlideBanner from "../components/Banner/RecomendBanner";
+import NeedHelp from "../components/Card/NeedHelp";
 import {
   DetailCard1,
   DetailCardWhatOffer,
@@ -40,9 +41,12 @@ let Detailspage = () => {
             <MediaComponentPrice product={product} />
           </section>
         </section>
+
         <section className="grid grid-cols-1 md:grid-cols-2 py-10 md:gap-3 ">
           <ArticalUsage />
+          <NeedHelp />
         </section>
+        <RecomendSlideBanner product={product} />
       </main>
     </>
   );
