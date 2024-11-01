@@ -9,7 +9,9 @@ import Detailspage from "./pages/Detailspage.jsx";
 import RootLayout from "./components/Layout/Rootlayout.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import DataFetcher from "./pages/testAxio.jsx";
+import SlideBanner from "./components/Banner/SlideBanner.jsx";
 import { Products } from "./pages/testAxio.jsx";
+import { DetailCard1 } from "./components/Card/DetailpageCard.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +26,19 @@ const router = createBrowserRouter([
         element: <ListingPage />,
       },
       {
+        path: "/aa",
+        element: <SlideBanner />,
+      },
+      {
         path: "/details",
+        element: <Detailspage />,
+      },
+      {
+        path: "/s",
+        element: <DetailCard1 />,
+      },
+      {
+        path: "/details/:id",
         element: <Detailspage />,
       },
       {

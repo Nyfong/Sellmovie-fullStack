@@ -1,15 +1,23 @@
-export let DetailCard1 = () => {
+import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+
+export let DetailCard1 = ({ product }) => {
+  if (!product) {
+    return <div>Product not found</div>; // Handle case when product is not available
+  }
+
   return (
     <>
       <article className="rounded-xl border-2 border-gray-100 bg-white overflow-hidden">
-        <div className="">
-          <img
-            src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBb8YkqrmoFjcMUJULGOJelBjd5QCreFQGGrELW8fl67Ntaocg609TDJFVWNHUdAJP33ceFrjJlK.E3wzTjKkiFc-&format=source"
-            className="w-full h-[170px] md:h-[300px] object-cover"
-            alt=""
-          />
+        <div>
+          <div>
+            <img
+              src={product.image} // Use the image from the product prop
+              className="w-full h-[170px] md:h-[300px] object-cover"
+              alt={product.name} // Better alt text for accessibility
+            />
+          </div>
         </div>
-
         <div className="flex justify-end">
           <strong className="-mb-[2px] -me-[2px] inline-flex items-center gap-1 rounded-ee-xl rounded-ss-xl bg-green-600 px-3 py-1.5 text-white">
             <svg
@@ -27,7 +35,9 @@ export let DetailCard1 = () => {
               />
             </svg>
 
-            <span className="text-[10px]  sm:text-xs font-kh">លក់ដាច់!</span>
+            <span className="text-[10px] sm:text-xs font-kh">
+              លក់ដាច់! {product.name} {/* Use product.name directly */}
+            </span>
           </strong>
         </div>
       </article>

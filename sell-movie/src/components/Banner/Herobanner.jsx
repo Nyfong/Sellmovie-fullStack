@@ -3,6 +3,7 @@ export let HerobannerHomepage = () => {
   const aboutUs = "អំពីយើង";
   const aboutProduct = "រាយមុខទំនិញ";
   const url = "/listing";
+  const url2 = "/aboutus";
   // https://a-static.besthdwallpaper.com/batman-sketch-red-wallpaper-3840x2160-101734_54.jpg
   return (
     <>
@@ -31,7 +32,7 @@ export let HerobannerHomepage = () => {
 
             <div className="mt-8 flex mb-5  md:w-[355px] flex-wrap gap-4 text-center">
               <Button1 title={aboutProduct} url={url} />
-              <Button1 title={aboutUs} />
+              <Button1 title={aboutUs} url={url2} />
             </div>
           </div>
         </div>

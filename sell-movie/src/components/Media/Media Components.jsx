@@ -35,7 +35,32 @@ export let MediaComponent = ({ title, description }) => {
   );
 };
 import { Link } from "react-router-dom";
-export let MediaComponentPrice = ({ title, description }) => {
+export let MediaComponentPrice = ({ title, description, product }) => {
+  if (!product) {
+    return (
+      <>
+        <div className="p-3 flex flex-row-reverse items-center font-kh gap-4   ">
+          <div className="bg-slate-100 rounded-xl p-5   md:p-3">
+            <Link to="https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/9674/9674659.png"
+                alt=""
+                className="size-10 md:size-20 rounded-lg object-cover"
+              />
+            </Link>
+
+            <h3 className="text-lg/tight  font-bold text-gray-900">
+              {title} ចុចបូតុង
+            </h3>
+
+            <p className="mt-0.5 text-gray-700">
+              $ {description} ក្នុងការបញ្ជារទិញទំនិញ
+            </p>
+          </div>
+        </div>
+      </>
+    ); // Handle case when product is not available
+  }
   return (
     <>
       <div className="p-3 flex flex-row-reverse items-center font-kh gap-4   ">
@@ -49,11 +74,11 @@ export let MediaComponentPrice = ({ title, description }) => {
           </Link>
 
           <h3 className="text-lg/tight  font-bold text-gray-900">
-            {title || "ចុចបូតុងខាងលើ"}
+            {title || ""} ចុចបូតុង
           </h3>
 
           <p className="mt-0.5 text-gray-700">
-            {description || "ក្នុងការបញ្ជារទិញទំនិញ"}
+            $ {description || product.price} ក្នុងការបញ្ជារទិញទំនិញ
           </p>
         </div>
       </div>

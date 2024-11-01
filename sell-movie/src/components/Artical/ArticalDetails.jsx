@@ -1,4 +1,9 @@
-export let Artical1 = () => {
+export let Artical1 = ({ product }) => {
+  // console.log("Artical", product.name);
+  if (!product) {
+    return <div>Product not found</div>; // Handle case when product is not available
+  }
+
   return (
     <>
       <div className="grid grid-cols-1 font-kh p-3 ">
@@ -7,12 +12,8 @@ export let Artical1 = () => {
         </div>
         <div>
           <p>
-            Canva ត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2012 ដោយ Melanie Perkins, Cliff
-            Obrecht, និង Cameron Adams ។
-            វាជាឧបករណ៍រចនាតាមអ៊ីនធឺណិតដែលអនុញ្ញាតឱ្យអ្នកប្រើបង្កើតក្រាហ្វិក
-            បទបង្ហាញ ផ្ទាំងរូបភាព និងមាតិកាដែលមើលឃើញផ្សេងទៀត។
-            ជាមួយនឹងចំណុចប្រទាក់អូសនិងទម្លាក់ដែលងាយស្រួលប្រើ Canva
-            បានធ្វើបដិវត្តការរចនាដោយធ្វើឱ្យវាអាចចូលប្រើបានសម្រាប់មនុស្សគ្រប់គ្នាដោយមិនចាំបាច់ត្រូវការជំនាញកម្រិតខ្ពស់
+            {product.description}
+            {"    "} {product.name}
           </p>
         </div>
       </div>
