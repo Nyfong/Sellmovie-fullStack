@@ -27,8 +27,8 @@ let BlogCard = ({ image }) => {
           <div className="flex flex-1 flex-col justify-between">
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
               <a href="#">
-                <h3 className="font-bold uppercase text-gray-900">
-                  Finding our iinformation here
+                <h3 className="font-bold uppercase text-gray-900 font-kh">
+                  ស្វែងរកព័ត៌មានរបស់យើងនៅទីនេះ
                 </h3>
               </a>
 
@@ -47,7 +47,7 @@ let BlogCard = ({ image }) => {
                 href="#"
                 className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
               >
-                Read Blog
+                <span className="font-kh">អានប្លុក </span>/ Read Blog
               </a>
             </div>
           </div>

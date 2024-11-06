@@ -23,7 +23,7 @@ let Blogpage = () => {
           </div>
           {/* details */}
           <div className="flex items-center p-10">
-            <p>
+            <p className="line-clamp-5 md:line-clamp-none">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Mollitia, maiores obcaecati repudiandae enim hic laudantium,
               nihil, ipsa modi quibusdam eaque voluptatem? Suscipit ad

@@ -2,6 +2,7 @@ import img1 from "../assets/img/heavid.png";
 import img2 from "../assets/img/fong.png";
 import img3 from "../assets/img/ying.png";
 import img4 from "../assets/img/mey.png";
+import Logo from "../assets/img/logoSellMovie.png";
 import { Link } from "react-router-dom";
 import BlogCard from "../components/Card/BlogCard";
 let AboutUs = () => {
@@ -51,7 +52,7 @@ let AboutUs = () => {
             {/* imgae */}
             <div className="  p-20">
               <img
-                src="https://static-00.iconduck.com/assets.00/person-typing-at-desk-illustration-2048x1919-9cvyoh0g.png"
+                src={Logo}
                 alt=""
                 className="md:h-[500px] w-full object-cover block"
               />
@@ -60,7 +61,7 @@ let AboutUs = () => {
         </section>
         {/* show team */}
         <section className="my-10">
-          <p className="underline">Our Team</p>
+          <p className="underline font-kh">ក្រុមរបស់យើង</p>
           <div className=" grid grid-cols-1 sm:grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
             {/* image1 */}
             {arr1.map((el) => (
@@ -75,7 +76,7 @@ let AboutUs = () => {
                     alt=""
                   />
                   <span className="text-xl">TENH KH</span>
-                  <span>seller</span>
+                  <span className="font-kh">អ្នកលក់</span>
                 </div>
               </>
             ))}
@@ -90,40 +91,55 @@ let AboutUs = () => {
           ))}
         </section>
 
-        <section className="overflow-hidden rounded-lg shadow-2xl md:grid md:grid-cols-3  pb-10">
-          <Link to="https://www.youtube.com/@davidoeng" target={"_blank"}>
-            <img
-              alt=""
-              src={arr1[0]}
-              className="h-32 w-full object-cover md:h-full rounded-lg ring-2 ring-green-500"
-            />
-          </Link>
+        <section>
+          {/* founder */}
+          <div className="my-10">
+            <span>
+              Founder / <span className="font-kh ">ស្ថាបនិក </span> TenhKH
+            </span>
+          </div>
+          <div className="overflow-hidden rounded-lg shadow-2xl md:grid md:grid-cols-3  pb-10">
+            <div className="relative">
+              <Link to="https://www.youtube.com/@davidoeng" target={"_blank"}>
+                <img
+                  alt=""
+                  src={arr1[0]}
+                  className="h-32 w-full object-cover md:h-full rounded-lg ring-2 ring-green-500 "
+                />
+                <div className="absolute absolute bottom-[25%] right-[5%] md:right-[37%]">
+                  <span className="font-kh  text-black md:text-white">
+                    លោក អុឺង ដេវីដ
+                  </span>
+                </div>
+              </Link>
+            </div>
 
-          <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
-            <p className="text-sm font-semibold uppercase tracking-widest">
-              Run with the pack
-            </p>
+            <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
+              <p className="text-sm font-semibold uppercase tracking-widest">
+                Run with the pack
+              </p>
 
-            <h2 className="mt-6 font-black uppercase">
-              <span className="text-4xl font-black sm:text-5xl lg:text-6xl">
-                {" "}
-                Check out my channel{" "}
-              </span>
+              <h2 className="mt-6 font-black uppercase">
+                <span className="text-4xl font-black sm:text-5xl lg:text-6xl">
+                  {" "}
+                  Check out my channel{" "}
+                </span>
 
-              <span className="mt-2 block text-sm">exciting video</span>
-            </h2>
+                <span className="mt-2 block text-sm">exciting video</span>
+              </h2>
 
-            <Link
-              to="https://www.youtube.com/@davidoeng"
-              target={"_blank"}
-              className="mt-8 inline-block w-full bg-black py-4 text-sm font-bold uppercase tracking-widest rounded-lg text-white p-10 bg-red-500"
-            >
-              SUBSCRIBE NOW
-            </Link>
+              <Link
+                to="https://www.youtube.com/@davidoeng"
+                target={"_blank"}
+                className="mt-8 inline-block w-full bg-black py-4 text-sm font-bold uppercase tracking-widest rounded-lg text-white p-10 bg-red-500"
+              >
+                SUBSCRIBE YT NOW
+              </Link>
 
-            <p className="mt-8 text-xs font-medium uppercase text-gray-400">
-              1ST November, 2024 *
-            </p>
+              <p className="mt-8 text-xs font-medium uppercase text-gray-400">
+                1ST November, 2024 *
+              </p>
+            </div>
           </div>
         </section>
       </main>

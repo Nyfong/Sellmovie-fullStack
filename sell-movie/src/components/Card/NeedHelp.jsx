@@ -1,18 +1,29 @@
+import { FaTelegram } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 let NeedHelp = () => {
   return (
     <>
       <div className="rounded-lg text-center shadow-xl">
         <div className="px-6 py-5">
-          <p className="font-medium font-kh">រកមិនឃើញចម្លើយរបស់អ្នក។?</p>
+          <p className="font-medium font-kh">រកមិនឃើញចម្លើយរបស់អ្នក?</p>
 
           <div className="mt-4 space-y-2">
             <Link
-              to={"https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d"}
+              to="/aboutus"
               className="block rounded-full border border-blue-500 px-8 py-3 text-sm font-medium text-blue-600 font-kh"
+              // target="__blank"
+            >
+              យល់បន្ថែមពី website និង អ្នកលក់
+            </Link>
+          </div>
+          <div className="mt-4 space-y-2">
+            <Link
+              to={"https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d"}
+              className="block rounded-full border border-green-500 px-8 py-3 text-sm font-medium text-green-600 font-kh"
               target="__blank"
             >
-              ផ្ញើសារមកយើង
+              ផ្ញើសារមកកាន់ពួកយើង
             </Link>
           </div>
 
@@ -58,17 +69,7 @@ let NeedHelp = () => {
             </svg>
           </a>
 
-          <a className="rounded-full border border-gray-200 p-2 text-gray-900 bg-white">
-            <span className="sr-only">Company Twitter</span>
-            <svg
-              className="size-4"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-            </svg>
-          </a>
+          <FaTelegram className="w-8 h-8" />
         </div>
       </div>
     </>
