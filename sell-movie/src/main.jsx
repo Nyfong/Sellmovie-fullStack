@@ -13,6 +13,7 @@ import SlideBanner from "./components/Banner/SlideBanner.jsx";
 import { Products } from "./pages/testAxio.jsx";
 import { DetailCard1 } from "./components/Card/DetailpageCard.jsx";
 import RecomendSlideBanner from "./components/Banner/RecomendBanner.jsx";
+import Blogpage from "./pages/Blogpage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/aboutus",
         element: <AboutUs />,
+      },
+      {
+        path: "/blog",
+        element: <Blogpage />,
       },
 
       {

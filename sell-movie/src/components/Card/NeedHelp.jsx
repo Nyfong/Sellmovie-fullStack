@@ -4,23 +4,23 @@ let NeedHelp = () => {
     <>
       <div className="rounded-lg text-center shadow-xl">
         <div className="px-6 py-5">
-          <p className="font-medium">Not found your answer?</p>
+          <p className="font-medium font-kh">រកមិនឃើញចម្លើយរបស់អ្នក។?</p>
 
           <div className="mt-4 space-y-2">
             <Link
               to={"https://www.facebook.com/Davidinthemood?mibextid=LQQJ4d"}
-              className="block rounded-full border border-blue-500 px-8 py-3 text-sm font-medium text-blue-600"
+              className="block rounded-full border border-blue-500 px-8 py-3 text-sm font-medium text-blue-600 font-kh"
               target="__blank"
             >
-              Message us
+              ផ្ញើសារមកយើង
             </Link>
           </div>
 
           <p className="mt-4 inline-flex items-center gap-1.5">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-500"></span>
-            <span className="text-xs font-medium text-green-700">
+            <span className="text-xs font-medium text-green-700 font-kh">
               {" "}
-              Chat online{" "}
+              ជជែកតាមអ៊ីនធឺណិត{" "}
             </span>
           </p>
         </div>

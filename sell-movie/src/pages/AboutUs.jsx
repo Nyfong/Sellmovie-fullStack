@@ -1,12 +1,13 @@
 import img1 from "../assets/img/heavid.png";
 import img2 from "../assets/img/fong.png";
 import img3 from "../assets/img/ying.png";
+import img4 from "../assets/img/mey.png";
 import { Link } from "react-router-dom";
-
+import BlogCard from "../components/Card/BlogCard";
 let AboutUs = () => {
   const arr = [1, 2, 2, 2];
-  const arr1 = [img1, img2, img3, img1];
-
+  const arr1 = [img1, img2, img3, img4];
+  const detail = ["David", "Fong", "Ying", "Jing"];
   return (
     <>
       <main className="p-5 md:p-3 lg:p-0  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
@@ -73,13 +74,22 @@ let AboutUs = () => {
                     className="h-[150px] md:h-[200px] w-[150px] md:w-[200px] object-cover rounded-full ring-2 ring-green-500"
                     alt=""
                   />
-                  <span className="text-xl">Pu kDet</span>
+                  <span className="text-xl">TENH KH</span>
                   <span>seller</span>
                 </div>
               </>
             ))}
           </div>
         </section>
+        {/* blog card */}
+        <section className="my-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+          {arr1.map((el) => (
+            <>
+              <BlogCard image={el} />
+            </>
+          ))}
+        </section>
+
         <section className="overflow-hidden rounded-lg shadow-2xl md:grid md:grid-cols-3  pb-10">
           <Link to="https://www.youtube.com/@davidoeng" target={"_blank"}>
             <img
