@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import BlogCard from "../components/Card/BlogCard";
 let AboutUs = () => {
   const arr = [1, 2, 2, 2];
-
+  const detailImg = [img1, img2, img3, img4];
   const detail = ["David", "Fong", "Ying", "Jing"];
   const [seller, setSellers] = useState([]);
 
@@ -78,14 +78,14 @@ let AboutUs = () => {
           <p className="underline font-kh">ក្រុមរបស់យើង</p>
           <div className=" grid grid-cols-1 sm:grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
             {/* image1 */}
-            {seller.map((el) => (
+            {seller.map((el, i) => (
               <>
                 <div
                   key={el.id}
                   className="rounded-lg flex flex-col gap-3 items-center"
                 >
                   <img
-                    src={el.image}
+                    src={detailImg[i]}
                     className="h-[150px] md:h-[200px] w-[150px] md:w-[200px] object-cover rounded-full ring-2 ring-green-500"
                     alt=""
                   />
@@ -108,7 +108,7 @@ let AboutUs = () => {
               <>
                 <BlogCard
                   key={el.id}
-                  image={el.image}
+                  image={detailImg[i]}
                   id={seller.id}
                   seller={seller}
                   index={i}
