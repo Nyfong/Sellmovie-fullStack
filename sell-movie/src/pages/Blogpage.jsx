@@ -1,5 +1,27 @@
-import vid from "../assets/img/heavid.png";
-let Blogpage = () => {
+import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import img1 from "../assets/img/heavid.png";
+import img2 from "../assets/img/ying.png";
+import img3 from "../assets/img/mey.png";
+import img4 from "../assets/img/fong.png";
+let Blogpage = ({}) => {
+  const { id } = useParams();
+  const [seller, setSellers] = useState([]);
+  const detail = [img1, img2, img3, img4];
+  useEffect(() => {
+    const fetchSellers = async () => {
+      const response = await fetch("/saller.json");
+      const data = await response.json();
+      setSellers(data);
+    };
+
+    fetchSellers();
+  }, []);
+  // Find the product matching the id
+  const sellerData = seller.find((item) => String(item.id) === id);
+
+  console.log("this is product", sellerData);
+  console.log("id", id);
   return (
     <>
       <main className="p-5 md:p-3 lg:p-0  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
@@ -7,51 +29,38 @@ let Blogpage = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {/* title */}
           <div className="flex justify-center items-center  h-16">
-            <p>ABOUT HEA VID</p>
+            <p className="font-kh">អំពី {seller[id - 1]?.name}</p>
           </div>
           {/* title */}
           <div className="flex justify-center items-center  h-16 bg-red-500 rounded-lg">
-            <p>Mey</p>
+            <p className="font-kh"> សង្ខេប</p>
           </div>
           {/* pic */}
-          <div>
-            <img
-              src={vid}
-              className="h-[300] w-full object-cover block"
-              alt=""
-            />
+          <div className="flex items-center justify-center">
+            {sellerData ? (
+              <img
+                src={detail[id - 1]}
+                className="h-[200px] w-[200px] md:w-[400px] md:h-[400px] rounded-full  object-cover block opacity-50 hover:opacity-100 duration-700	"
+                alt={seller[id - 1]?.name}
+              />
+            ) : (
+              <p>No seller found</p>
+            )}
           </div>
           {/* details */}
-          <div className="flex items-center p-10">
-            <p className="line-clamp-5 md:line-clamp-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, maiores obcaecati repudiandae enim hic laudantium,
-              nihil, ipsa modi quibusdam eaque voluptatem? Suscipit ad
-              consequuntur, inventore esse fugiat laudantium quidem dignissimos
-              in, provident ullam saepe ratione obcaecati, aperiam ex est
-              delectus neque at laboriosam aspernatur dolores. Ea voluptatibus
-              perspiciatis aspernatur rerum totam officiis quidem, aperiam quae
-              voluptatem accusantium repudiandae, natus quibusdam praesentium.
-              Eaque minima ea rerum ducimus architecto officia ipsa
-              necessitatibus. Ipsum quibusdam nesciunt quis fuga natus,
-              voluptate sit officiis, cumque obcaecati magni recusandae
-              provident corrupti assumenda facilis beatae quas? Sapiente,
-              pariatur! Libero tempora aliquam omnis illo maxime deserunt
-              praesentium laboriosam! Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Mollitia, maiores obcaecati repudiandae enim hic
-              laudantium, nihil, ipsa modi quibusdam eaque voluptatem? Suscipit
-              ad consequuntur, inventore esse fugiat laudantium quidem
-              dignissimos in, provident ullam saepe ratione obcaecati, aperiam
-              ex est delectus neque at laboriosam aspernatur dolores. Ea
-              voluptatibus perspiciatis aspernatur rerum totam officiis quidem,
-              aperiam quae voluptatem accusantium repudiandae, natus quibusdam
-              praesentium. Eaque minima ea rerum ducimus architecto officia ipsa
-              necessitatibus. Ipsum quibusdam nesciunt quis fuga natus,
-              voluptate sit officiis, cumque obcaecati magni recusandae
-              provident corrupti assumenda facilis beatae quas? Sapiente,
-              pariatur! Libero tempora aliquam omnis illo maxime deserunt
-              praesentium laboriosam!
+          <div className="flex flex-col  p-10 font-kh">
+            <p className="line-clamp-5 md:line-clamp-none ">
+              {seller[id - 1]?.description}
             </p>
+            <span> 🔥 skills </span>
+            <ul className="list-disc list-inside text-white  text-sm">
+              {/* Display each service from the seller's services array */}
+              {seller[id - 1]?.services?.map((service, index) => (
+                <li key={index} className="hover:text-green-300 leading-8	">
+                  {service}
+                </li>
+              ))}
+            </ul>
           </div>
           {/* blog */}
           <div>

@@ -8,7 +8,7 @@ import SlideBanner from "../components/Banner/SlideBanner";
 let Homepage = () => {
   const titleOfProduct = "មុខទំនិញលក់ដាច់";
   const titleOfClickMore = "ចូលទៅកាន់";
-  const url = "/listing";
+  const url = "/prod";
   return (
     <>
       <HerobannerHomepage />

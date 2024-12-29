@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+let BlogCard = ({ image, seller, id, index, name }) => {
+  console.log(
+    "object ====",
+    seller.map((el) => el.id)
+  );
 
-let BlogCard = ({ image }) => {
   return (
     <>
-      <Link to="/blog">
+      <Link to={`/blog/${index + 1}`}>
         <article className="flex bg-white transition hover:shadow-xl">
           <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
             <time
@@ -28,17 +32,15 @@ let BlogCard = ({ image }) => {
             <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
               <a href="#">
                 <h3 className="font-bold uppercase text-gray-900 font-kh">
+                  <span className="hover:text-green-500 ">
+                    {seller[index]?.name}
+                  </span>{" "}
                   ស្វែងរកព័ត៌មានរបស់យើងនៅទីនេះ
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi temporibus nesciunt
-                praesentium dolore sed nulla ipsum eveniet corporis quidem,
-                mollitia itaque minus soluta, voluptates neque explicabo tempora
-                nisi culpa eius atque dignissimos. Molestias explicabo corporis
-                voluptatem?
+                {seller[index]?.description}
               </p>
             </div>
 

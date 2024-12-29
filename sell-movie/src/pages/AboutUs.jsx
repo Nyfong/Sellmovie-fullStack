@@ -1,17 +1,31 @@
 import img1 from "../assets/img/heavid.png";
-import img2 from "../assets/img/fong.png";
-import img3 from "../assets/img/ying.png";
-import img4 from "../assets/img/mey.png";
+import img2 from "../assets/img/ying.png";
+import img3 from "../assets/img/mey.png";
+import img4 from "../assets/img/fong.png";
 import Logo from "../assets/img/logoSellMovie.png";
 import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+
 import BlogCard from "../components/Card/BlogCard";
 let AboutUs = () => {
   const arr = [1, 2, 2, 2];
-  const arr1 = [img1, img2, img3, img4];
+
   const detail = ["David", "Fong", "Ying", "Jing"];
+  const [seller, setSellers] = useState([]);
+
+  useEffect(() => {
+    const fetchSellers = async () => {
+      const response = await fetch("/saller.json");
+      const data = await response.json();
+      setSellers(data);
+    };
+
+    fetchSellers();
+  }, []);
+  console.log(seller);
   return (
     <>
-      <main className="p-5 md:p-3 lg:p-0  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
+      <main className="p-5 sm:p-4 md:p-3 lg:p-0  gap-5 md:gap-3 max-w-screen-xl min-w-screen-80 mx-auto">
         {/* intro */}
         <section>
           <div className="grid grid-cols-1 md:grid-cols-2">
@@ -64,14 +78,14 @@ let AboutUs = () => {
           <p className="underline font-kh">ក្រុមរបស់យើង</p>
           <div className=" grid grid-cols-1 sm:grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
             {/* image1 */}
-            {arr1.map((el) => (
+            {seller.map((el) => (
               <>
                 <div
-                  key={el}
+                  key={el.id}
                   className="rounded-lg flex flex-col gap-3 items-center"
                 >
                   <img
-                    src={el}
+                    src={el.image}
                     className="h-[150px] md:h-[200px] w-[150px] md:w-[200px] object-cover rounded-full ring-2 ring-green-500"
                     alt=""
                   />
@@ -83,12 +97,26 @@ let AboutUs = () => {
           </div>
         </section>
         {/* blog card */}
-        <section className="my-10 grid grid-cols-1 md:grid-cols-2 gap-5">
-          {arr1.map((el) => (
-            <>
-              <BlogCard image={el} />
-            </>
-          ))}
+
+        <section>
+          <p>
+            {" "}
+            <span className="font-kh">អានប្លុក </span>/ Read Blog
+          </p>
+          <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+            {seller.map((el, i) => (
+              <>
+                <BlogCard
+                  key={el.id}
+                  image={el.image}
+                  id={seller.id}
+                  seller={seller}
+                  index={i}
+                  name={seller.name}
+                />
+              </>
+            ))}
+          </div>
         </section>
 
         <section>
@@ -103,7 +131,7 @@ let AboutUs = () => {
               <Link to="https://www.youtube.com/@davidoeng" target={"_blank"}>
                 <img
                   alt=""
-                  src={arr1[0]}
+                  src={img1}
                   className="h-32 w-full object-cover md:h-full rounded-lg ring-2 ring-green-500 "
                 />
                 <div className="absolute absolute bottom-[25%] right-[5%] md:right-[37%]">

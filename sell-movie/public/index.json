@@ -3,38 +3,84 @@
     "id": 1,
     "name": "Canva pro",
     "description": "Canva គឺជាឧបករណ៍រចនាតាមអ៊ីនធឺណិតដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើតក្រាហ្វិក បទបង្ហាញ ការបង្ហោះប្រព័ន្ធផ្សព្វផ្សាយសង្គម និងអ្វីៗជាច្រើនទៀតដោយប្រើមុខងារអូសនិងទម្លាក់។ វាផ្តល់នូវគំរូ រូបភាព និងធាតុរចនាសម្រាប់អ្នកជំនាញ និងអ្នកចាប់ផ្តើមដំបូងដូចគ្នា។",
+    "catg": " movie",
+    "banefit": [
+      {
+        "title": "Use Cases",
+        "dec": "Businesses: Branding, marketing materials, presentations, and social media campaigns. Content Creators: Thumbnails, banners, infographics, and animations. Event Planners: Invitations, flyers, and programs."
+      },
+      {
+        "title": "Access to Premium Assets",
+        "dec": "រូបថត វីដេអូ និងក្រាហ្វិកបុព្វលាភរាប់លាន៖ ទទួលបានសិទ្ធិចូលប្រើបណ្ណាល័យដ៏ទូលំទូលាយនៃប្រព័ន្ធផ្សព្វផ្សាយស្តុកដែលមានគុណភាពខ្ពស់។ គំរូផ្តាច់មុខ៖ ប្រើគំរូដែលបានរចនាប្រកបដោយវិជ្ជាជីវៈសម្រាប់ការធ្វើបទបង្ហាញ ការបង្ហោះប្រព័ន្ធផ្សព្វផ្សាយសង្គម ខិត្តប័ណ្ណ និងច្រើនទៀត។"
+      },
+
+      {
+        "title": "Marketing Tools",
+        "dec": "បទបង្ហាញ៖ បង្កើត និងបញ្ជូនបទបង្ហាញកម្រិតវិជ្ជាជីវៈ ជាមួយនឹងមុខងារអន្តរកម្ម។ សមាហរណកម្មវិភាគ៖ តាមដានការអនុវត្តនៃការបង្ហោះប្រព័ន្ធផ្សព្វផ្សាយសង្គមដែលបានបង្កើតជាមួយ Canva Pro ។"
+      },
+      {
+        "title": " Cloud Storage",
+        "dec": "100GB of Storage: Store your designs, images, and videos securely in Canva’s cloud storage. Organized Folders: Keep your designs organized for easy access."
+      },
+      {
+        "title": "Collaboration Features",
+        "dec": "ការសហការជាក្រុម៖ អញ្ជើញសមាជិកក្រុមឱ្យសហការគ្នាលើគម្រោងនានាក្នុងពេលវេលាជាក់ស្តែង។ មតិយោបល់ និងមតិកែលម្អ៖ បន្ថែមមតិយោបល់ដោយផ្ទាល់លើការរចនា ដើម្បីងាយស្រួលទំនាក់ទំនង។"
+      }
+    ],
     "price": 3,
     "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBb8YkqrmoFjcMUJULGOJelBjd5QCreFQGGrELW8fl67Ntaocg609TDJFVWNHUdAJP33ceFrjJlK.E3wzTjKkiFc-&format=source"
-  },
-  {
-    "id": 2,
-    "name": "Netflix",
-    "description": "Netflix គឺជាសេវាកម្មចាក់ផ្សាយដែលផ្តល់ជូននូវបណ្ណាល័យដ៏ធំនៃភាពយន្ត កម្មវិធីទូរទស្សន៍ ភាពយន្តឯកសារ និងខ្លឹមសារដើម។ វាផ្តល់នូវការមើលដោយគ្មានការផ្សាយពាណិជ្ជកម្មជាមួយនឹងការជាវដែលមាននៅលើឧបករណ៍ជាច្រើននៅទូទាំងពិភពលោក",
-    "catg": " movie",
-    "price": 3,
-    "image": "https://images.ctfassets.net/4cd45et68cgf/5y7i4snzpqkr2oHRCRAkN4/c144749aa0df745e43367744af149f66/Android_Collage_1920x1080__UCAN_En.jpg?w=1200"
   },
   {
     "id": 3,
     "name": "Amazone prime",
     "description": "Amazon Prime Video គឺជាសេវាកម្មចាក់ផ្សាយដែលផ្តល់នូវជម្រើសដ៏ធំទូលាយនៃភាពយន្ត កម្មវិធីទូរទស្សន៍ និងមាតិកាដើម។ វាត្រូវបានរួមបញ្ចូលជាមួយនឹងការជាវ Amazon Prime និងផ្តល់នូវការមើលដោយគ្មានការផ្សាយពាណិជ្ជកម្ម និងការចូលទៅកាន់ចំណងជើងផ្តាច់មុខ។",
     "catg": " movie",
+    "banefit": [
+      {
+        "title": "Entertainment Benefits",
+        "dec": "ចូលប្រើបណ្ណាល័យដ៏ធំនៃភាពយន្ត កម្មវិធីទូរទស្សន៍ និង Amazon Originals។ មើលមាតិកាគ្មានពាណិជ្ជកម្ម និងទាញយកសម្រាប់ការមើលក្រៅបណ្តាញ។ Amazon Music Prime: ចាក់ផ្សាយជាង 100 លានបទចម្រៀងដោយគ្មានពាណិជ្ជកម្ម និងចូលប្រើបញ្ជីចាក់ដែលបានជ្រើសរើស។ ហ្គេមបឋម៖ ហ្គេមប្រចាំខែឥតគិតថ្លៃ, ខ្លឹមសារក្នុងហ្គេម និងការជាវឆានែល Twitch ឥតគិតថ្លៃ។ ការអានបឋម៖ ការចូលប្រើសៀវភៅអេឡិចត្រូនិច ទស្សនាវដ្តី និងសៀវភៅអូឌីយ៉ូគ្មានដែនកំណត់ពីការបង្វិល ការជ្រើសរើស.៣. ទំហំផ្ទុក និងភាពងាយស្រួលរូបថត Amazon៖ ការផ្ទុករូបថតដែលមានគុណភាពបង្ហាញពេញលេញគ្មានដែនកំណត់ និងជម្រើសការចែករំលែកដែលប្រសើរឡើង។ ជាវ និងរក្សាទុក៖ សន្សំប្រាក់លើការទិញម្តងទៀត និងរីករាយជាមួយការដឹកជញ្ជូនដោយមិនមានការរំខាន។ 4. សេវាកម្មផ្តាច់មុខ Amazon Fresh៖ ការដឹកជញ្ជូនគ្រឿងទេសសម្រាប់សមាជិក Prime នៅក្នុងតំបន់ដែលបានជ្រើសរើស។ ការបញ្ចុះតម្លៃទីផ្សារអាហារទាំងមូល៖ ការបញ្ចុះតម្លៃ និងអត្ថប្រយោជន៍ផ្តាច់មុខនៅពេលទិញទំនិញនៅ Whole Foods.Prime Rx៖ ការបញ្ចុះតម្លៃលើថ្នាំតាមវេជ្ជបញ្ជានៅឱសថស្ថានដែលចូលរួម។"
+      },
+      {
+        "title": " Entertainment Benefits",
+        "dec": "Prime Video: Access to a vast library of movies, TV shows, and Amazon Originals.Watch content ad-free and download for offline viewing.Amazon Music Prime:Stream over 100 million songs ad-free and access curated playlists.Prime Gaming:Free monthly games, in-game content, and a free Twitch channel subscription.Prime Reading:Unlimited access to eBooks, magazines, and audiobooks from a rotating selection.3. Storage and ConvenienceAmazon Photos:Unlimited full-resolution photo storage and enhanced sharing options.Subscribe & Save:Save money on repeat purchases and enjoy hassle-free delivery. 4. Exclusive Services Amazon Fresh:Grocery delivery for Prime members in select areas.Whole Foods Market Discounts:Exclusive discounts and benefits when shopping at Whole Foods.Prime Rx: Discounts on prescription medications at participating pharmacies."
+      }
+    ],
     "price": 3,
-    "image": "https://cdn.prod.website-files.com/60ab0571dc2b4b3a7165c912/65bb5e44a7173f31270f005a_%E1%84%8E%E1%85%A2%E1%86%BA-gpt.png"
+    "image": "https://www.tvguide.com/a/img/resize/c042138b6ac2549f5140b746a50a19515f90e3af/hub/2024/05/20/aeb2aef6-0d48-4885-be3e-4ea4650b7f41/primevideo-seo-logo.jpg?auto=webp&width=1092"
   },
   {
     "id": 4,
     "name": "Disney plus",
-    "description": "Disney Plus គឺជាវេទិកាផ្សាយដែលមានភាពយន្ត និងកម្មវិធីទូរទស្សន៍ពី Disney, Pixar, Marvel, Star Wars និង National Geographic ។ វាផ្តល់ជូននូវមាតិកាដែលងាយស្រួលសម្រាប់គ្រួសារ និងស៊េរីដើមដូចជា The Mandalorian ជាដើម។",
+    "description": "Disney Plus គឺជាវេទិកាផ្សាយដែលមានភាពយន្ត និងកម្មវិធីទូរទស្សន៍ពី Disney, Pixar, Marvel, Star Wars និង National Geographic ។ វាផ្តល់ជូននូវមាតិកាដែលងាយស្រួលសម្រាប់គ្រួសារ និងស៊េរីដើមដូចជា The Mandalorian ជាដើម។ Disney+ is a subscription-based streaming service that offers a vast library of movies, TV shows, and original content from Disney and its subsidiaries, including Pixar, Marvel, Star Wars, and National Geographic.",
     "catg": " movie",
+    "banefit": [
+      {
+        "title": "Exclusive Disney+ Originals",
+        "dec": " សូមរីករាយជាមួយកម្មវិធីថ្មីៗ និងផ្តាច់មុខដូចជា The Mandalorian, Hawkeye, The Falcon and the Winter Soldier, និងតន្ត្រីវិទ្យាល័យ៖ តន្ត្រី៖ ស៊េរី។ ចូលប្រើភាពយន្ត និងស៊េរីមិនមាននៅលើវេទិកាផ្សេងទៀតទេ។ Enjoy new and exclusive shows like The Mandalorian, Hawkeye, The Falcon and the Winter Soldier, and High School Musical: The Musical: The Series. Access movies and series not available on other platforms. "
+      },
+      {
+        "title": "High-Quality Streaming",
+        "dec": "4K Ultra HD and HDR: Watch content in ultra-high-definition with Dolby Vision and Dolby Atmos sound. Ad-Free Experience: Enjoy uninterrupted streaming with no ads (in most subscription plans)."
+      }
+    ],
     "price": 3,
     "image": "https://static.standard.co.uk/2023/08/10/09/disneyp.jpg?width=1200&height=900&fit=crop"
   },
   {
     "id": 5,
     "name": "Apple tv plus",
-    "description": "Description of Product 3",
+    "description": "Apple TV+ គឺ​ជា​សេវាកម្ម​ផ្សាយ​តាម​ការ​ជាវ​របស់ Apple ដែល​ផ្តល់​ជូន​នូវ​ជម្រើស​នៃ​កម្មវិធី​ទូរទស្សន៍​ដើម ភាពយន្ត ភាពយន្ត​ឯកសារ និង​មាតិកា​គ្រួសារ។ Apple TV+ is Apple’s subscription-based streaming service offering a curated selection of original TV shows, movies, documentaries, and family content. ",
     "catg": " movie",
+    "banefit": [
+      {
+        "title": "Exclusive Apple Originals",
+        "dec": "Critically Acclaimed Content: Access award-winning shows like Ted Lasso, The Morning Show, and Severance. Original Movies: Watch high-profile films such as CODA (Academy Award winner) and The Banker.Documentaries: Explore unique documentaries like The Elephant Queen and Prehistoric Planet."
+      },
+      {
+        "title": "Use Cases",
+        "dec": "Entertainment Enthusiasts: Exclusive access to award-winning content and high-profile talent. Families: Safe and engaging programming for children and adults.Apple Ecosystem Users: Seamless integration with Apple devices and services."
+      }
+    ],
     "price": 3,
     "image": "https://www.apple.com/v/apple-tv-plus/ai/images/meta/apple-tv__e7aqjl2rqzau_og.png"
   },
@@ -43,30 +89,287 @@
     "name": "Capcut pro",
     "description": "CapCut គឺជាកម្មវិធីកាត់តវីដេអូដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើត និងកែសម្រួលវីដេអូបានយ៉ាងងាយស្រួល។ វាផ្តល់នូវលក្ខណៈពិសេសដូចជាការកាត់ត តម្រង ការផ្លាស់ប្តូរ អត្ថបទ តន្ត្រី និងបែបផែន ដែលធ្វើឱ្យវាស័ក្តិសមសម្រាប់ទាំងអ្នកប្រើប្រាស់ធម្មតា និងអ្នកបង្កើតមាតិកា។ ជាមួយនឹងចំណុចប្រទាក់ដ៏សាមញ្ញ និងឧបករណ៍កែសម្រួលផ្សេងៗរបស់វា CapCut មានប្រជាប្រិយភាពសម្រាប់ការបង្កើតវីដេអូប៉ូឡូញសម្រាប់វេទិកាប្រព័ន្ធផ្សព្វផ្សាយសង្គម។",
     "catg": " software",
+    "banefit": [
+      {
+        "title": "No Watermark",
+        "dec": "Unlike the free version, CapCut Pro allows users to export videos without a watermark, ensuring professional-looking content for creators."
+      },
+      {
+        "title": "Additional Features",
+        "dec": "Pro users gain access to additional features like premium filters, effects, and transitions, which provide more options for creating unique and eye-catching videos."
+      },
+      {
+        "title": "More precise editing",
+        "dec": "With advanced tools like custom animations, improved speed control, and enhanced keyframe animations, CapCut Pro offers more granular control over video edits."
+      },
+      {
+        "title": "Exclusive Media Library",
+        "dec": "CapCut Pro unlocks an expanded library of stock videos, images, and music, giving you more creative options for your projects."
+      },
+      {
+        "title": "Exclusive sound effects and music",
+        "dec": "Pro users can access a wider range of high-quality audio tracks, sound effects, and voiceovers to make videos more engaging."
+      },
+      {
+        "title": "Higher Export Quality",
+        "dec": "CapCut Pro allows for exporting videos in higher resolutions, including 4K, ensuring your content looks sharp and professional, especially for platforms that support high-quality video."
+      },
+      {
+        "title": "Faster export times",
+        "dec": "Pro users often experience faster export speeds, making the workflow more efficient."
+      },
+      {
+        "title": "Advanced Filters and Effects",
+        "dec": "CapCut Pro provides access to more exclusive filters and visual effects, enabling you to enhance the look and feel of your videos with higher precision."
+      },
+      {
+        "title": "Advanced color grading tools",
+        "dec": "With enhanced color correction and grading tools, CapCut Pro offers more control over the overall look of your video."
+      },
+      {
+        "title": "Remove Ads",
+        "dec": "One of the key perks of CapCut Pro is the removal of all in-app advertisements, providing a smoother, uninterrupted editing experience."
+      },
+      {
+        "title": "Premium Templates",
+        "dec": "Pro users can use premium video templates, making it easier to create professional-looking videos quickly by customizing pre-made designs."
+      },
+      {
+        "title": "Priority Customer Support",
+        "dec": "CapCut Pro subscribers often get priority customer service, ensuring quicker resolutions for any issues or queries you may have."
+      },
+      {
+        "title": "Cloud Storage (if available)",
+        "dec": "In some cases, CapCut Pro offers cloud storage, allowing users to store their video projects and access them from multiple devices, making collaboration and editing more seamless."
+      },
+      {
+        "title": "Enhanced Export Options",
+        "dec": "CapCut Pro users have more control over the video export settings, including bit rate and file size, giving them flexibility for different platforms or use cases."
+      }
+    ],
     "price": 5,
     "image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/ies/lvweb_os_monorepo/platformSSR/3f7c59f36d529f90-1200.png"
   },
   {
     "id": 7,
     "name": "Paramount Plus ",
-    "description": "Description of Product 3",
+    "description": "Paramount Plus គឺជាសេវាកម្មស្ទ្រីមដែលផ្តល់នូវមាតិកាដ៏ធំទូលាយ រួមទាំងភាពយន្ត កម្មវិធីទូរទស្សន៍ កីឡាផ្សាយផ្ទាល់ ព័ត៌មាន និងកម្មវិធីដើមផ្តាច់មុខ។ នេះគឺជាអត្ថប្រយោជន៍សំខាន់ៗមួយចំនួននៃការប្រើប្រាស់ Paramount Plus៖",
     "catg": " movie",
+    "banefit": [
+      {
+        "title": "Vast Content Library",
+        "dec": "Paramount Plus offers a diverse collection of movies from various genres, including popular titles, classic films, and new releases."
+      },
+      {
+        "title": "TV Shows",
+        "dec": "You can watch both current and classic TV shows, including CBS hits like NCIS, The Good Fight, Big Brother, and more."
+      },
+      {
+        "title": "Original Programming",
+        "dec": "Paramount Plus provides exclusive original content like Star Trek: Discovery, The Good Fight, The Twilight Zone, and the Halo series."
+      },
+      {
+        "title": "Live Sports Streaming",
+        "dec": "Paramount Plus gives access to live sports coverage, including NFL games (through CBS), college sports, the PGA Tour, UEFA Champions League, and more."
+      },
+      {
+        "title": "Live Events",
+        "dec": "The platform also features live events such as the Grammys, the Academy of Country Music Awards, and more, ensuring you stay updated on big cultural events."
+      },
+      {
+        "title": "Live TV",
+        "dec": "With a Paramount Plus subscription, you can access live broadcasts from CBS, including news, primetime shows, and local channels."
+      },
+      {
+        "title": "News Coverage",
+        "dec": "Paramount Plus includes live streaming from CBS News, offering up-to-date coverage on global events, breaking news, and documentaries."
+      },
+      {
+        "title": "Affordable Pricing",
+        "dec": "Paramount Plus offers flexible subscription plans, including a lower-cost ad-supported version, and an ad-free premium plan that includes additional features like offline downloads."
+      },
+      {
+        "title": "Free Trial",
+        "dec": "New users often get a 7-day free trial, allowing them to test the service before committing to a subscription."
+      },
+      {
+        "title": "Exclusive Access to CBS Content",
+        "dec": "Paramount Plus gives you early access to new episodes of CBS programming, with some shows available for streaming shortly after they air."
+      },
+      {
+        "title": "Back catalog of CBS content",
+        "dec": "Subscribers can access a large back catalog of CBS shows and specials."
+      },
+      {
+        "title": "High-Quality Streaming",
+        "dec": "Paramount Plus offers high-definition streaming, with many titles available in 4K for a superior viewing experience, especially on supported devices."
+      },
+      {
+        "title": "Multiple Viewing Options",
+        "dec": "You can stream on a variety of devices, including smartphones, tablets, smart TVs, game consoles, and desktop computers."
+      },
+      {
+        "title": "User-Friendly Interface",
+        "dec": "The service features an intuitive interface, making it easy to browse and find your favorite content."
+      },
+      {
+        "title": "Personalized recommendations",
+        "dec": "Paramount Plus offers personalized content recommendations based on your viewing history."
+      },
+      {
+        "title": "Multiple Device Support",
+        "dec": "You can stream Paramount Plus content across multiple devices, allowing you to watch your favorite shows, movies, or sports on the go."
+      },
+      {
+        "title": "Offline Downloads",
+        "dec": "The premium version of Paramount Plus allows users to download content for offline viewing, ideal for traveling or areas with limited connectivity."
+      },
+      {
+        "title": "Family-Friendly Features",
+        "dec": "Paramount Plus offers a wide selection of kid-friendly programming, including content from Nickelodeon and PBS Kids, with parental controls to limit access to certain content."
+      },
+      {
+        "title": "Family Profiles",
+        "dec": "You can create separate profiles for family members, allowing for personalized recommendations and content restrictions based on age."
+      },
+      {
+        "title": "Global Availability",
+        "dec": "Paramount Plus is available in several countries, including the U.S., Canada, Latin America, and parts of Europe, allowing users to access local and international content."
+      },
+      {
+        "title": "Commercial-Free Experience (Premium Version)",
+        "dec": "Subscribers to the premium, ad-free version can enjoy uninterrupted streaming without any commercials."
+      }
+    ],
     "price": 3,
     "image": "https://i.insider.com/605a36490d155e0019ef6471?width=700"
   },
   {
     "id": 8,
     "name": "Sportify",
-    "description": "Spotify គឺជាសេវាកម្មស្ទ្រីមតន្ត្រីឌីជីថលដ៏ពេញនិយមដែលផ្តល់នូវការចូលប្រើបទចម្រៀងរាប់លាន ផតខាស និងមាតិកាអូឌីយ៉ូផ្សេងទៀតពីសិល្បករនៅទូទាំងពិភពលោក។ វាអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ស្វែងរក ស្តាប់ និងចែករំលែកតន្ត្រីតាមប្រភេទ និងរចនាប័ទ្មផ្សេងៗ។ Spotify ផ្តល់ជូនទាំងកម្រិតឥតគិតថ្លៃ គាំទ្រការផ្សាយពាណិជ្ជកម្ម និងសេវាកម្មជាវលំដាប់ខ្ពស់ ដែលផ្តល់នូវការស្តាប់ដោយគ្មានពាណិជ្ជកម្ម ការទាញយកក្រៅបណ្តាញ និងគុណភាពសំឡេងខ្ពស់ជាង",
+    "description": "Spotify គឺជាសេវាកម្មស្ទ្រីមតន្ត្រីឌីជីថលដ៏ពេញនិយមដែលផ្តល់នូវការចូលប្រើបទចម្រៀងរាប់លាន ផតខាស និងមាតិកាអូឌីយ៉ូផ្សេងទៀតពីសិល្បករនៅទូទាំងពិភពលោក។ វាអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ស្វែងរក ស្តាប់ និងចែករំលែកតន្ត្រីតាមប្រភេទ និងរចនាប័ទ្មផ្សេងៗ។ Spotify ផ្តល់ជូនទាំងកម្រិតឥតគិតថ្លៃ គាំទ្រការផ្សាយពាណិជ្ជកម្ម និងសេវាកម្មជាវលំដាប់ខ្ពស់ ដែលផ្តល់នូវការស្តាប់ដោយគ្មានពាណិជ្ជកម្ម ការទាញយកក្រៅបណ្តាញ និងគុណភាពសំឡេងខ្ពស់ជាង Spotify is one of the most popular music streaming platforms in the world, offering a variety of features and benefits for users. ",
     "catg": " music",
+    "banefit": [
+      {
+        "title": "Vast Music Library",
+        "dec": "Spotify provides a massive library of over 70 million tracks from artists around the world, covering almost every genre imaginable."
+      },
+      {
+        "title": "Podcasts & Audiobooks",
+        "dec": "Beyond music, Spotify also offers a wide range of podcasts and audiobooks, giving users a comprehensive audio entertainment experience."
+      },
+      {
+        "title": "Personalized Recommendations",
+        "dec": "Spotify curates personalized playlists based on your listening habits, helping you discover new music and artists you might enjoy."
+      },
+      {
+        "title": "Discover Weekly & Daily Mixes",
+        "dec": "Spotify curates personalized playlists based on your listening habits, helping you discover new music and artists you might enjoy."
+      },
+      {
+        "title": "Spotify Wrapped",
+        "dec": "Each year, Spotify provides a summary of your listening habits, highlighting your favorite songs, artists, and genres."
+      },
+      {
+        "title": "Playlists & Curated Content",
+        "dec": "Spotify offers a wide range of curated playlists for various moods, activities, and genres, making it easy to find music for any occasion."
+      },
+      {
+        "title": "Pre-made playlists",
+        "dec": "Spotify offers a wide range of curated playlists for various moods, activities, and genres, making it easy to find music for any occasion."
+      },
+      {
+        "title": "User-generated playlists",
+        "dec": "Users can create and share their own playlists, contributing to a vibrant community of music lovers."
+      },
+      {
+        "title": "High-Quality Audio",
+        "dec": "Spotify offers different streaming qualities depending on the user's subscription (e.g., 320 kbps for premium users), ensuring a high-quality listening experience."
+      },
+      {
+        "title": "Multi-Device Support",
+        "dec": "Spotify is available on various devices, including smartphones, tablets, desktop computers, smart speakers, and gaming consoles, making it easy to listen wherever you are."
+      },
+      {
+        "title": "Offline listening",
+        "dec": "Premium users can download music for offline listening, which is useful when traveling or in areas with limited connectivity."
+      },
+      {
+        "title": "Social Features",
+        "dec": "Users can share songs, albums, and playlists with friends and followers on social media or within Spotify itself."
+      },
+      {
+        "title": "Collaborative playlists",
+        "dec": "You can create playlists with friends, where everyone can add or remove tracks, making it a fun social experience."
+      },
+      {
+        "title": "Customizable Experience",
+        "dec": "Based on your listening habits, Spotify creates playlists like 'Discover Weekly' or 'Release Radar' that help you discover new music."
+      },
+      {
+        "title": "Radio stations",
+        "dec": "You can create your own radio stations based on your favorite artists, albums, or songs."
+      },
+      {
+        "title": "Ad-Free Experience (Premium)",
+        "dec": "Premium subscribers get an ad-free experience, allowing uninterrupted music listening."
+      },
+      {
+        "title": "No interruptions",
+        "dec": "Premium subscribers get an ad-free experience, allowing uninterrupted music listening."
+      },
+      {
+        "title": "Skip songs",
+        "dec": "Premium users can skip any track as much as they want, unlike free users who have limited skips."
+      },
+      {
+        "title": "Affordable Plans",
+        "dec": "Spotify offers a free version with ads, giving users access to a limited, but still impressive, selection of music."
+      },
+      {
+        "title": "Free tier",
+        "dec": "Spotify offers a free version with ads, giving users access to a limited, but still impressive, selection of music."
+      },
+      {
+        "title": "Premium plans",
+        "dec": "Various premium plans are available, including individual, family, and student subscriptions, offering flexibility and affordability."
+      },
+      {
+        "title": "Exclusive Content",
+        "dec": "Spotify offers exclusive podcasts and early access to certain music releases, particularly with major artists and partnerships."
+      },
+      {
+        "title": "Global Accessibility",
+        "dec": "Spotify is available in over 180 countries, allowing users from all over the world to access their favorite music."
+      },
+      {
+        "title": "Localized content",
+        "dec": "Spotify tailors its content to local regions, offering music in various languages and reflecting regional music tastes."
+      }
+    ],
     "price": 4,
     "image": "https://outsideinsight.com/wp-content/uploads/2018/11/spotify-Header-1024x576.jpg"
   },
   {
     "id": 9,
-    "name": "Chatgpt Plus ",
-    "description": "Description of Product 3",
+    "name": "Chatgpt Plus  ",
+    "description": "ChatGPT is a versatile tool, making it invaluable for personal, academic, and professional needs, while continuously learning and adapting to users' requirements.",
     "catg": " education",
+    "banefit": [
+      {
+        "title": "Productivity Enhancement",
+        "dec": "ស្វ័យប្រវត្តិកម្មកិច្ចការ៖ បង្កើតអ៊ីមែល ឯកសារ និងសេចក្តីសង្ខេបយ៉ាងរហ័ស សន្សំពេលវេលា។ ការបង្កើតមាតិកា៖ ជួយក្នុងការសរសេរប្លក់ អត្ថបទ របាយការណ៍ និងខ្លឹមសារច្នៃប្រឌិត។ ជំនួយកូដ៖ ជួយបំបាត់កំហុស សរសេរ និងពន្យល់កូដ បង្កើនល្បឿនដំណើរការការងារអភិវឌ្ឍន៍។"
+      },
+      {
+        "title": "ភាពងាយស្រួល",
+        "dec": "ភាពអាចរកបាន 24/7៖ តែងតែអាចចូលប្រើបានដើម្បីឆ្លើយសំណួរ ឬផ្តល់ជំនួយនៅពេលណាដែលត្រូវការ។ ការគាំទ្រពហុភាសា៖ ទំនាក់ទំនងជាច្រើនភាសា បំបែកឧបសគ្គភាសា។"
+      },
+
+      {
+        "title": "Problem Solving",
+        "dec": "ជំនួយផ្នែកបច្ចេកទេស៖ ជួយដោះស្រាយបញ្ហាផ្នែកទន់ ផ្នែករឹង ឬបញ្ហាកម្មវិធី។ ការគាំទ្រការសម្រេចចិត្ត៖ វិភាគជម្រើស និងផ្តល់នូវគុណសម្បត្តិ និងគុណវិបត្តិ ដើម្បីជួយក្នុងការសម្រេចចិត្ត។"
+      }
+    ],
     "price": 6,
     "image": "https://cdn.prod.website-files.com/60ab0571dc2b4b3a7165c912/65bb5e44a7173f31270f005a_%E1%84%8E%E1%85%A2%E1%86%BA-gpt.png"
   },
@@ -75,14 +378,90 @@
     "name": "Chrunchyroll ",
     "description": "Description of Product 3",
     "catg": " movie",
+    "banefit": [
+      {
+        "title": "Extensive Anime Library",
+        "dec": "Crunchyroll provides access to a vast collection of anime titles across various genres, from popular series to lesser-known gems. Subscribers can explore new shows and watch older classics."
+      },
+      {
+        "title": "Simulcasts",
+        "dec": "One of the standout features is simulcasting. Crunchyroll often streams episodes of anime just hours after they air in Japan, allowing fans to watch episodes as soon as they're released."
+      },
+      {
+        "title": "High-Quality Streaming",
+        "dec": "Crunchyroll supports HD and 4K streaming for many series, offering a superior viewing experience."
+      },
+      {
+        "title": "Subtitles in Multiple Languages",
+        "dec": "The platform provides subtitles in various languages, making it accessible to a global audience."
+      },
+      {
+        "title": "Mobile and Multi-Device Support",
+        "dec": "Crunchyroll is available on multiple devices, including smartphones, tablets, smart TVs, and gaming consoles, allowing users to watch anime on the go or at home."
+      },
+      {
+        "title": "Ad-Free Viewing",
+        "dec": "For premium subscribers, Crunchyroll offers an ad-free viewing experience, making for a smoother, uninterrupted streaming experience."
+      },
+      {
+        "title": "Manga Library",
+        "dec": "Crunchyroll also has a growing collection of manga, which can be a great complement for anime fans who enjoy reading as well."
+      },
+      {
+        "title": "Community Features",
+        "dec": "Crunchyroll has an active community of anime lovers. It features forums, reviews, and fan interactions, providing a platform for fans to discuss their favorite shows and engage with others."
+      },
+      {
+        "title": "Exclusive Content",
+        "dec": "Crunchyroll sometimes offers exclusive content, such as early releases, behind-the-scenes footage, or special anime events, available only to its subscribers."
+      },
+      {
+        "title": "Affordable Subscription",
+        "dec": "Crunchyroll offers multiple subscription tiers, making it accessible to a wide range of viewers, from free users with ads to premium users who enjoy additional perks."
+      }
+    ],
     "price": 3,
     "image": "https://assets.aboutamazon.com/dims4/default/dc6e6ef/2147483647/strip/false/crop/1920x1080+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Ff8%2F2a%2Fe21459814491b9aac0134bfffaf8%2Fcr-1920x1080.jpg"
   },
   {
     "id": 11,
     "name": "Stream Random Key  ",
-    "description": "Description of Product 3",
+    "description": "ជាធម្មតា Steam Random Key សំដៅលើដំណើរការនៃការបង្កើតគ្រាប់ចុចចៃដន្យសម្រាប់ហ្គេម ឬកម្មវិធី Steam ដែលជារឿយៗត្រូវបានផ្តល់ជូនសម្រាប់គោលបំណងផ្សព្វផ្សាយ ការផ្ដល់ជូន ឬការបញ្ចុះតម្លៃ។ The Steam Random Key typically refers to the process of generating random keys for Steam games or software, often provided for promotional purposes, giveaways, or discounts.",
     "catg": " game",
+    "banefit": [
+      {
+        "title": "Free Access to Games",
+        "dec": "Random Steam keys are often used in giveaways or promotional events, offering users free access to games or software. This is a great way to try out new titles without spending money."
+      },
+      {
+        "title": "Exclusive Offers",
+        "dec": "Some Steam keys are given out as part of exclusive deals or bundles, providing access to games or content at a fraction of the regular price."
+      },
+      {
+        "title": "Random Surprises",
+        "dec": "For users who enjoy surprises, random Steam keys can offer the excitement of receiving unexpected games or content. It’s an element of fun and discovery, especially in giveaways or events."
+      },
+      {
+        "title": "Increased Game Library",
+        "dec": "By collecting random Steam keys, you can quickly expand your Steam library with new titles, including games that you might not have considered buying on your own."
+      },
+      {
+        "title": "Support for Developers",
+        "dec": "Occasionally, random keys are given out for marketing purposes by indie developers or small studios. By redeeming these keys, you can support these creators by increasing the visibility of their games."
+      },
+      {
+        "title": "Discounts and Special Editions",
+        "dec": "Some Steam keys unlock special versions of games (like deluxe editions or DLCs) or provide discounts, making it an economical way to access premium content."
+      },
+      {
+        "title": "Trading",
+        "dec": "If you don't want a game received from a random key, Steam's marketplace or community allows you to trade keys with other users, potentially getting something you’re more interested in."
+      },
+      {
+        "title": "Limited Time Offers",
+        "dec": "Steam random keys are often tied to time-limited events, so getting them early can ensure you don’t miss out on a special deal or offer."
+      }
+    ],
     "price": 3,
     "image": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-ly83ahr0l9xdad"
   },
@@ -91,6 +470,72 @@
     "name": "Nord VPN ",
     "description": "Description of Product 3",
     "catg": " game",
+    "banefit": [
+      {
+        "title": "Enhanced Online Privacy",
+        "dec": "អ៊ិនគ្រីបចរាចរណ៍អ៊ីនធឺណិតរបស់អ្នក ដោយធានាថាសកម្មភាពរុករករបស់អ្នកមានលក្ខណៈឯកជន និងត្រូវបានការពារពី ISPs, hackers, និងការឃ្លាំមើល។"
+      },
+      {
+        "title": "Improved Security",
+        "dec": "ការពារទិន្នន័យរបស់អ្នកនៅលើបណ្តាញ Wi-Fi សាធារណៈដែលមិនមានសុវត្ថិភាព។ ការពារព័ត៌មានរសើប ដូចជាពាក្យសម្ងាត់ និងព័ត៌មានលម្អិតអំពីកាតឥណទាន ពីការវាយប្រហារតាមអ៊ីនធឺណិត។"
+      },
+      {
+        "title": "Secure Public Wi-Fi Usage",
+        "dec": "NordVPN protects your data when you connect to public Wi-Fi networks, such as those in airports, cafes, or hotels, making it safe to access sensitive information without the risk of being hacked."
+      },
+      {
+        "title": "Protection on public networks",
+        "dec": "If your VPN connection drops unexpectedly, the kill switch feature ensures that your data is not exposed by automatically disconnecting you from the internet."
+      },
+      {
+        "title": "Automatic Kill Switch",
+        "dec": "If your VPN connection drops unexpectedly, the kill switch feature ensures that your data is not exposed by automatically disconnecting you from the internet."
+      },
+      {
+        "title": "Streaming and Torrenting Support",
+        "dec": "NordVPN is excellent for streaming as it allows users to access popular platforms like Netflix, Disney+, YouTube, Hulu, and more, regardless of geographic restrictions."
+      },
+      {
+        "title": "Unblock streaming services",
+        "dec": "NordVPN is excellent for streaming as it allows users to access popular platforms like Netflix, Disney+, YouTube, Hulu, and more, regardless of geographic restrictions."
+      },
+      {
+        "title": "P2P Support",
+        "dec": "NordVPN supports P2P (peer-to-peer) file sharing and torrenting on specific servers, making it a great choice for users who need to download large files securely and anonymously."
+      },
+      {
+        "title": "User-Friendly Interface",
+        "dec": "NordVPN provides easy-to-use apps for all major platforms (Windows, macOS, Android, iOS, Linux, and more), and the installation process is simple, even for beginners."
+      },
+      {
+        "title": "Easy setup",
+        "dec": "NordVPN provides easy-to-use apps for all major platforms (Windows, macOS, Android, iOS, Linux, and more), and the installation process is simple, even for beginners."
+      },
+      {
+        "title": "One-click connection",
+        "dec": "With a single click, you can connect to the best server for optimal speed and security, making it ideal for both tech-savvy and casual users."
+      },
+      {
+        "title": "Dedicated IP Option",
+        "dec": "NordVPN offers a dedicated IP option, which gives you a static IP address that you can use exclusively, ideal for tasks like online banking or accessing private servers that require a consistent IP."
+      },
+      {
+        "title": "Personalized IP address",
+        "dec": "NordVPN offers a dedicated IP option, which gives you a static IP address that you can use exclusively, ideal for tasks like online banking or accessing private servers that require a consistent IP."
+      },
+      {
+        "title": "Ad & Malware Blocker",
+        "dec": "NordVPN includes the CyberSec feature, which blocks intrusive ads, pop-ups, and known malicious websites, improving your browsing experience while also adding a layer of security against online threats."
+      },
+      {
+        "title": "CyberSec feature",
+        "dec": "NordVPN includes the CyberSec feature, which blocks intrusive ads, pop-ups, and known malicious websites, improving your browsing experience while also adding a layer of security against online threats."
+      },
+      {
+        "title": "Access to Tor Network",
+        "dec": "NordVPN allows you to access the Tor network through its VPN, giving you an additional layer of privacy by routing your traffic through the Tor network for anonymous browsing."
+      }
+    ],
     "price": 30,
     "image": "https://i.pcmag.com/imagery/reviews/07lyyVIatWNmQKm97hGohzg-9..v1569477664.png"
   }

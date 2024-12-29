@@ -62,7 +62,7 @@ export const Products = () => {
   return (
     <main className="p-5 md:p-3 lg:p-0 bg-black  gap-5 md:gap-3 bg-black  max-w-screen-xl min-w-screen-80 mx-auto py-10">
       <SlideProd />
-      <div className="grid  grid-cols-1 md:grid-cols-4 pt-10 gap-5">
+      <div className="grid  grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 pt-10 gap-5">
         {products.map((product) => (
           <>
             <CardBox product={product} />

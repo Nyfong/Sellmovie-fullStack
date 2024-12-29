@@ -1,8 +1,9 @@
 import { Button1 } from "../Button/Button1";
+import shopGif from "../../assets/img/shop.gif";
 export let HerobannerHomepage = () => {
   const aboutUs = "អំពីយើង";
   const aboutProduct = "រាយមុខទំនិញ";
-  const url = "/listing";
+  const url = "/prod";
   const url2 = "/aboutus";
   // https://a-static.besthdwallpaper.com/batman-sketch-red-wallpaper-3840x2160-101734_54.jpg
   return (
@@ -13,7 +14,10 @@ export let HerobannerHomepage = () => {
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 */}
 
-      <section className="relative bg-[url(https://images7.alphacoders.com/990/thumb-1920-990523.jpg)] bg-cover bg-center bg-no-repeat">
+      <section
+        className="relative  bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${shopGif})` }}
+      >
         <div className="absolute inset-0 bg-gray-900/75 "></div>
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">

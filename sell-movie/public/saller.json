@@ -2,17 +2,77 @@
   {
     "id": 1,
     "name": "David - ដេវីត ",
-    "description": "Canva គឺជាឧបករណ៍រចនាតាមអ៊ីនធឺណិតដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើតក្រាហ្វិក បទបង្ហាញ ការបង្ហោះប្រព័ន្ធផ្សព្វផ្សាយសង្គម និងអ្វីៗជាច្រើនទៀតដោយប្រើមុខងារអូសនិងទម្លាក់។ វាផ្តល់នូវគំរូ រូបភាព និងធាតុរចនាសម្រាប់អ្នកជំនាញ និងអ្នកចាប់ផ្តើមដំបូងដូចគ្នា។",
+    "description": "I am a marketing professional specializing in digital marketing, social media strategies, and SEO optimization. I help brands grow their online presence and drive sales through effective marketing campaigns.",
+    "services": [
+      "Search Engine Optimization (SEO)",
+      "Pay-Per-Click Advertising (PPC)",
+      "Social Media Marketing (SMM)",
+      "Content Marketing & Strategy",
+      "Email Marketing Campaigns",
+      "Affiliate Marketing",
+      "Online Reputation Management",
+      "Conversion Rate Optimization (CRO)",
+      "Influencer Marketing",
+      "Marketing Automation"
+    ],
     "university": "PPIU",
     "Major": "Marketing",
-    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBb8YkqrmoFjcMUJULGOJelBjd5QCreFQGGrELW8fl67Ntaocg609TDJFVWNHUdAJP33ceFrjJlK.E3wzTjKkiFc-&format=source"
+    "image": "./src/assets/img/heavid.png"
   },
   {
     "id": 2,
-    "name": "Ny Fong",
-    "description": "Netflix គឺជាសេវាកម្មចាក់ផ្សាយដែលផ្តល់ជូននូវបណ្ណាល័យដ៏ធំនៃភាពយន្ត កម្មវិធីទូរទស្សន៍ ភាពយន្តឯកសារ និងខ្លឹមសារដើម។ វាផ្តល់នូវការមើលដោយគ្មានការផ្សាយពាណិជ្ជកម្មជាមួយនឹងការជាវដែលមាននៅលើឧបករណ៍ជាច្រើននៅទូទាំងពិភពលោក",
+    "name": "Oeng Sivying ",
+    "description": "I specialize in creating custom graphics, presentations, and social media content using Canva AI PS LR.",
+    "services": [
+      "Logo Design",
+      "Branding & Identity Design",
+      "Illustration",
+      "Digital Art & Graphics",
+      "Packaging Design",
+      "Web & Mobile App Design",
+      "Social Media Graphics",
+      "Print Design (Brochures, Flyers, Posters)",
+      "UI/UX Design",
+      "Marketing Materials Design"
+    ],
+    "university": "PPIU",
+    "Major": "Marketing",
+    "image": "./src/assets/img/ying.png"
+  },
+  {
+    "id": 3,
+    "name": "Oeng Sivmey",
+    "description": "I am a certified accountant with extensive experience in managing financial records, tax preparation, and auditing. I help businesses streamline their finances, ensure tax compliance, and improve their overall financial health.",
+    "services": [
+      "Tax Preparation & Planning",
+      "Financial Reporting & Analysis",
+      "Bookkeeping Services",
+      "Payroll Management",
+      "Audit & Assurance",
+      "Tax Filing & Compliance",
+      "Financial Consulting & Strategy",
+      "Budgeting & Forecasting",
+      "Cash Flow Management",
+      "Investment Planning & Advice"
+    ],
     "university": "RUPP",
     "Major": "ITE",
-    "image": "https://images.ctfassets.net/4cd45et68cgf/5y7i4snzpqkr2oHRCRAkN4/c144749aa0df745e43367744af149f66/Android_Collage_1920x1080__UCAN_En.jpg?w=1200"
+    "image": "./src/assets/img/mey.png"
+  },
+  {
+    "id": 4,
+    "name": "Ny Fong",
+    "description": "I am a  web developer specializing in front-end and back-end development, UI/UX design, and responsive websites. I create seamless user experiences and visually appealing websites that align with your business goals. I help businesses build their online presence and digital solutions from the ground up. ខ្ញុំជាអ្នកបង្កើតគេហទំព័រដែលមានឯកទេសក្នុងការអភិវឌ្ឍន៍ផ្នែកខាងមុខ និងផ្នែកខាងក្រោយ ការរចនា UI/UX និងគេហទំព័រដែលឆ្លើយតប។ ខ្ញុំបង្កើតបទពិសោធន៍អ្នកប្រើប្រាស់ដែលគ្មានថ្នេរ និងគេហទំព័រដែលទាក់ទាញដោយមើលឃើញ ដែលស្របតាមគោលដៅអាជីវកម្មរបស់អ្នក។ ខ្ញុំជួយអាជីវកម្មបង្កើតវត្តមានអនឡាញ និងដំណោះស្រាយឌីជីថលរបស់ពួកគេតាំងពីមូលដ្ឋាន។",
+    "services": [
+      "Front-End Development",
+      "Back-End Development",
+      "Web & Mobile App Design",
+      "Responsive Web Design",
+      "UI/UX Design",
+      "Web Application Development"
+    ],
+    "university": "RUPP",
+    "Major": "ITE",
+    "image": "./src/assets/img/fong.png"
   }
 ]

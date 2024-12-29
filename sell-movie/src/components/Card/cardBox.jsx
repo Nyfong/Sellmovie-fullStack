@@ -31,7 +31,7 @@ const CardBox = ({ product }) => {
                   type="button"
                   className="block w-full rounded bg-gray-900 px-4 py-3 text-sm font-medium text-white transition hover:scale-105"
                 >
-                  Buy Now
+                  អាន លំអិត
                 </button>
               </Link>
             </form>

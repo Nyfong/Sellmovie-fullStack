@@ -27,7 +27,7 @@ export let Navbar = () => {
                   <li>
                     <Link
                       className="text-white md:text-xl transition hover:text-white/75"
-                      to="/listing"
+                      to="/prod"
                     >
                       មុខទំនិញ
                     </Link>
@@ -38,14 +38,6 @@ export let Navbar = () => {
                       to="/aboutus"
                     >
                       អំពី
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="text-white md:text-xl transition hover:text-white/75"
-                      to="/prod"
-                    >
-                      ផ្សេងៗ
                     </Link>
                   </li>
                 </ul>
@@ -115,7 +107,7 @@ export let Navbar = () => {
                 <li>
                   <Link
                     className="text-white transition hover:text-white/75 font-kh"
-                    to="/listing"
+                    to="/prod"
                     onClick={toggleDrawer}
                   >
                     មុខទំនិញ
@@ -128,15 +120,6 @@ export let Navbar = () => {
                     onClick={toggleDrawer}
                   >
                     អំពី
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="text-white transition hover:text-white/75 font-kh"
-                    to="/prod"
-                    onClick={toggleDrawer}
-                  >
-                    ផ្សេងៗ
                   </Link>
                 </li>
               </ul>
